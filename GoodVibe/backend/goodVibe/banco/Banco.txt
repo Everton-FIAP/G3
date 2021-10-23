@@ -1,0 +1,6 @@
+Banco de dados utilizado: MYSQL por problemas em computadores de participantes
+Usuário utilizado na criação: "root"
+Senha utilizada na criação: "root"
+IMPORTANTE: Caso criar usuário e senha com dados diferentes fazer a alteração na classe MySQLConnection.java
+
+ABRIR ARQUIVO DATA.SQL PARA CRIAÇÃO DA TABELA

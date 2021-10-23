@@ -1,0 +1,13 @@
+PostagemTO/TemaTO:
+Fazem os gets e sets dos dados e realiza o envio dos dados para o DAO
+
+PostagemDAO/TemaDAO:
+Recebe as informações do TO e prepara as querys para o SQL
+
+PostagemRepository/TemaRepository:
+Cria as anotações @GET, @GET(que faz o get por id ou getById), @DELETE, @POST, @UPDATE para que possam ser utilizadas no Resource
+
+PostagemResource/TemaResource: 
+Define o caminho "/tema" ou "/postagem" e utiliza as anotações de @GET, @GET(que faz o get por id ou getById), @DELETE, @POST, @UPDATE criadas no Repository
+
+
